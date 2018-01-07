@@ -4,7 +4,7 @@ UkDatabaseCrawler
 The "UkDatabaseCrawler" is crawler created to scrape [https://theukdatabase.com](https://theukdatabase.com) for 
 information about people based on posts.
 
-##Requirements
+## Requirements
 
 
   * Python 3 or higher;
@@ -19,7 +19,7 @@ browse the [Flask](http://flask.pocoo.org/docs/0.12),
 [PyMongo](https://api.mongodb.com/python/current)
 documentation to get more detailed information.
 
-##Installation
+## Installation
 
 
 First, install [Python 3](https://www.python.org) and [MongoDB](https://www.mongodb.com)
@@ -49,7 +49,7 @@ If the `pip` command is not available, update your package manager to the
 most recent version executing the  
 `python -m pip install --upgrade pip` command (Windows).
 
-##Usage
+## Usage
 
 First start the `mongod.exe` from `~\MongoDB\Server\3.6\bin` or just type 
 `mongod` in the command prompt (if а path to the bin folder is available).
@@ -85,9 +85,9 @@ $ scrapy crawl <spider_name> -s ITEM_PIPELINES="{}"
 
 This will generate only a .json file with the scraped information.
 
-##How to deploy the crawler
+## How to deploy the crawler
 
-###Deploying Spiders
+### Deploying Spiders
 
 This section describes the different options you have 
 for deploying your Scrapy spiders to run them on a regular 
@@ -102,7 +102,7 @@ Popular choices for deploying Scrapy spiders are:
 * [Scrapyd](https://doc.scrapy.org/en/latest/topics/deploy.html#deploy-scrapyd) (open source)
 * [Scrapy Cloud](https://doc.scrapy.org/en/latest/topics/deploy.html#deploy-scrapy-cloud) (cloud-based)
 
-###Deploying to a Scrapyd Server
+### Deploying to a Scrapyd Server
 Scrapyd is an open source application to run Scrapy 
 spiders. It provides a server with HTTP API, capable of 
 running and monitoring Scrapy spiders.
@@ -113,7 +113,7 @@ the scrapyd-deploy documentation for more information.
 
 Scrapyd is maintained by some of the Scrapy developers.
 
-###Deploying to Scrapy Cloud
+### Deploying to Scrapy Cloud
 [Scrapy Cloud](https://scrapinghub.com/scrapy-cloud) is a hosted, 
 cloud-based service by Scrapinghub, the company behind Scrapy.
 
