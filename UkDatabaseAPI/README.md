@@ -80,7 +80,7 @@ Open your browser and go to [http://localhost:5000/](http://localhost:5000)
 MONGO_URI = "mongodb://localhost:27017"
 ```
 
-###How to work with the API
+### How to work with the API
 
 
 To find information about a person or an article use: [http://localhost:5000/search](http://localhost:5000/search).
