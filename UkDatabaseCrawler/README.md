@@ -145,7 +145,7 @@ Troubleshooting
 
 If you get this message:
 `No connection could be made because the target machine actively refused it`
-check [Usage](##Usage).
+check [Usage](#usage).
 
 If you have problems installing MongoDB see the 
 [documentation](https://docs.mongodb.com/manual/tutorial/install-mongodb-enterprise-on-windows).
