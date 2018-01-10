@@ -1,8 +1,7 @@
 UkDatabaseCrawler
 =================
 
-The "UkDatabaseCrawler" is crawler created to scrape [https://theukdatabase.com](https://theukdatabase.com) for 
-information about people based on posts.
+The "UkDatabaseCrawler" is created to scrape https://theukdatabase.com for information about people, based on articles.
 
 ## Requirements
 
