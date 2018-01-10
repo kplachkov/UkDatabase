@@ -1,8 +1,7 @@
 UkDatabaseAPI
 ========================
 
-The "UkDatabaseAPI" is an API created to provide developers to find 
-information about people based on [https://theukdatabase.com](https://theukdatabase.com) 
+The "UkDatabaseAPI" is an API created to provide developers with a tool to find information about people, based on [https://theukdatabase.com](https://theukdatabase.com) 
 
 Requirements
 ------------
