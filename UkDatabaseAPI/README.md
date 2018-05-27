@@ -6,7 +6,7 @@ The "UkDatabaseAPI" is created to provide developers with a tool to search by cr
 Requirements
 ------------
 
-  * Python 3 or higher;
+  * Python 3.5 or higher;
   * MongoDB;
   * nltk;
   * bson;
@@ -117,12 +117,24 @@ URL:
 http://localhost:5000/search?t=John%20Bancroft%20dropped%20his%20son%20off&d=30/12/2017&n_results=1
 
 Result:  
-[{"_id": {"$oid": "5a4bc55586f8b4200864c476"}, 
-"TITLE": "Michael Cohen \u2013\u00a0Portslade", 
-"TEXT": "December 2017 Sale...", 
-"POST_PUB_DATE": {"$date": 1514592000000}, 
-"IMAGES": ["https://chrisukorg.files.wordpress.com/2017/12/cohen.jpg?w=529&h=352"], 
-"score": 2.2608303249097474}]
+```
+[
+  {
+    "_id": {
+      "$oid": "5a4bc55586f8b4200864c476"
+    },
+    "TITLE": "Michael Cohen \u2013\u00a0Portslade",
+    "TEXT": "Salesman in sports bra exposed himself in children\u2019s play area A FATHER told how he witnessed a 53-year-old man dressed in a sports bra and leggings performing a sex act on himself in a park where children were playing...",
+    "POST_PUB_DATE": {
+      "$date": 1514592000000
+    },
+    "IMAGES": [
+      "https://chrisukorg.files.wordpress.com/2017/12/cohen.jpg?w=529&h=352"
+    ],
+    "score": 2.2608303249097
+  }
+]
+```
  
 The score is based on matching the searched text with the 
 text in the article. The returned results are sorted in **descending**

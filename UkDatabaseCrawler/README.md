@@ -6,7 +6,7 @@ The "UkDatabaseCrawler" is created to scrape https://theukdatabase.com for infor
 ## Requirements
 
 
-  * Python 3 or higher;
+  * Python 3.5 or higher;
   * MongoDB;
   * Scrapy;
   * bs4;
