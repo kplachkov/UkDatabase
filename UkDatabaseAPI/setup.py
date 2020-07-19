@@ -5,5 +5,5 @@ setup(name='UkDatabaseAPI',
       description='Find information about people.',
       author='KP',
       author_email='',
-      install_requires=['flask==0.12.2']
+      install_requires=['flask==1.0']
       )
